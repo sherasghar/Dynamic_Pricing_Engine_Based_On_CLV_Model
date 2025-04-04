@@ -1,0 +1,4 @@
+CustomerID,Recency,Frequency,MonetaryValue,Tenure,AvgDaysBetweenPurchases,Age,UniqueProductsCount
+CUST001,30,5,500,365,30,35,10
+CUST002,45,3,250,180,60,28,5
+CUST003,15,8,800,730,15,42,15

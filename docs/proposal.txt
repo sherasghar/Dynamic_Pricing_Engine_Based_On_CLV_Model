@@ -1,0 +1,91 @@
+Your Project
+Student Name: Vinit Sachin Bhalerao
+Enrolment number: 30121974
+Your Project
+Project Title: Dynamic Pricing Engine for Online Retailers: Integrating Customer Lifetime Value Prediction Models for Personalized Pricing Strategies
+Project Aim: The aim of this research is to design the dynamic pricing engine capable of using CLV prediction models for the purpose of deriving customer-specific pricing strategies for online retailers. The emphasis is made on the predicted revenue and customer satisfaction, and the primary tools are individual customer characteristics such as buying pattern, frequency, and other aspects.
+Project Objectives:
+1.	To develop a dynamic pricing engine that incorporates CLV prediction models to enable personalized pricing strategies based on individual customer profiles.
+2.	To analyze the impact of personalized pricing strategies on customer satisfaction and revenue generation, identifying key factors influencing optimal pricing decisions and long-term customer relationships.
+3.	To compare the effectiveness of the dynamic pricing engine with traditional pricing strategies to assess its ability to maximize revenue while maintaining or enhancing customer loyalty in a competitive online retail environment.
+Project Artefact Type: Experimental Study
+Brief Description of Your Project:
+Analysis (Research):
+The first stage is considered as bibliographic where the previous research work done in the field of dynamic pricing along with their adaptation across the related industries is taken into consideration. Such considerations are based on the exploration of the research questions considering relevant literature: The CLV model of airlines, which Najafi et al. (2024) have pointed out as key, affects customers’ perception of ancillaries as Shukla et al. (2019) found. In this phase, the original procedures for applying dynamic pricing, as described by Victor et al. (2018), will be interpreted in an endeavor to develop appropriate strategies of pricing for changing the configuration of pricing principles regarding sensitive and believable customers’ characteristics.
+Design:
+The design phase will draw the structure of the dynamic pricing engine with special focus on compatibility with the CLV prediction models. From the work of Chen et al. (2020) on the aspect of promotional pricing strategies, thus the design of the mobile application will have to be flexible to whichever economic conditions exist or which customer’s needs must be met. Knowledge from the study by Najafi et al on multi-product dynamic pricing will also inform the necessary adaptability of the application.
+Development:
+Other stages will require the actual building of the dynamic pricing application, involving the dynamic price determination engine. Using data mining approaches and artificial intelligence structures established by Ye et al. (2018) and Gibbs et al. (2018), the engine will control the price in real-time based on the obtained data to be helpful in the competitive markets condition.
+Evaluation/Testing:
+There will be two parts of the evaluation phase of the proposed solution, which will prove the effectiveness of the dynamic pricing engine, and its readiness for real-life usage. Measures like revenue, customers’ satisfaction, and market rivalry will be evaluated against fang et al., (2020) and Amin et, al. (2020) to test for reliability and validity.
+Legal, Social, Ethical, and Professional Issues:
+•	Compliance with data protection regulations and guidelines.
+•	Mitigating commercial risks such as market acceptance, data privacy, and regulatory compliance.
+Potential Sources of Input Data:
+The primary sources of input data will include customer transaction histories, demographic data from online retailers' databases, and market trends data obtained from industry reports and market research firms (Haider, et al., 2020). Additionally, simulated data will be generated to supplement and validate the models. This comprehensive approach ensures robust data for accurate predictions and effective personalized pricing strategies, adhering to GDPR regulations and ensuring data privacy and security (Thuy, et al., 2020). Moreover, since the data is  based on the secondary sources, such as peer-reviewed articles, database, books, and records; therefore, personal information will not be obtained nor any other  sensitive or confidential data will be acquired.
+
+Tools and Technologies:
+Data preprocessing and modeling will involve Python while SQL will be used in data base section and possibly cloud computing where the project is very large.
+
+Data Description and GDPR Considerations: 
+The data, such as customer transaction histories, customer demographic data, and market trends data, will also be used by the project. Conventionally, the data acquired by such systems will involve de-identified transaction information, and other general population metrics to meet GDPR (Kopalle, et al., 2023; Chen, et al., 2022). Any personal data collected will be collected and used according to GDPR.
+
+Background on CLV Models:
+Customer Life Time Value or CLV models measure expected revenue stream of a given customer over a time that he or she is likely to do business with the company. CLV models were selected for this project as they can accurately depict the desired pricing strategy based on value and build customer’s lifetime value to maximize revenue while building strong customer relations.
+
+
+Gantt Chart for Project Plan:
+ 
+Project Plan - 
+Task	Duration (Weeks)	Start Week	End Week	Dependencies
+Literature Review	2	1	2	-
+Data Collection Strategy	1	2	3	Literature Review
+Data Acquisition (Simulated/Real)	2	3	5	Data Collection Strategy
+Algorithm Development	4	5	9	Data Acquisition
+Software Development (User Interface)	3	8	11	Algorithm Development
+Performance Evaluation (Simulations)	2	11	13	Algorithm Development
+Performance Evaluation (Case Studies)	2	13	15	Data Acquisition
+Analysis and Reporting	2	15	17	Performance Evaluation
+Project Documentation	1	17	18	Analysis and Reporting
+Project Presentation	0.5	18	18.5	Project Documentation
+
+
+
+
+
+
+
+
+
+References
+Amin, A., Tareen, W. U. K., Usman, M., Ali, H., Bari, I., Horan, B., ... & Mahmood, A. (2020). A review of optimal charging strategy for electric vehicles under dynamic pricing schemes in the distribution charging network. Sustainability, 12(23), 10160.
+Bastani, H., Simchi-Levi, D., & Zhu, R. (2022). Meta dynamic pricing: Transfer learning across experiments. Management Science, 68(3), 1865-1881.
+Blaudow, C., & Burg, F. (2018). Dynamic pricing as a challenge for consumer price statistics. EURONA, 1, 16.
+Chen, L., Nan, G., & Li, M. (2018). Wholesale pricing or agency pricing on online retail platforms: The effects of customer loyalty. International Journal of Electronic Commerce, 22(4), 576-608.
+Chen, P., Zhao, R., Yan, Y., & Li, X. (2020). Promotional pricing and online business model choice in the presence of retail competition. Omega, 94, 102085.
+Chen, X., Owen, Z., Pixton, C., & Simchi-Levi, D. (2022). A statistical learning approach to personalization in revenue management. Management Science, 68(3), 1923-1937.
+Dubé, J. P., & Misra, S. (2023). Personalized pricing and consumer welfare. Journal of Political Economy, 131(1), 131-189.
+Fang, C., Lu, H., Hong, Y., Liu, S., & Chang, J. (2020). Dynamic pricing for electric vehicle extreme fast charging. IEEE Transactions on Intelligent Transportation Systems, 22(1), 531-541.
+Gibbs, C., Guttentag, D., Gretzel, U., Yao, L., & Morton, J. (2018). Use of dynamic pricing strategies by Airbnb hosts. International Journal of Contemporary Hospitality Management, 30(1), 2-20.
+Haider, U. and Ahmad, N., Enhancing E-commerce Systems: Integrating Machine Learning for Improved Customer Interaction and Engagement.
+Harsha, P., Subramanian, S., & Uichanco, J. (2019). Dynamic pricing of omnichannel inventories: Honorable mention—2017 M&SOM practice-based research competition. Manufacturing & Service Operations Management, 21(1), 47-65.
+Kopalle, P.K., Pauwels, K., Akella, L.Y. and Gangwar, M., 2023. Dynamic pricing: Definition, implications for managers, and future research directions. Journal of Retailing, 99(4), pp.580-593.
+Kumar, V., (2008), "Customer Lifetime Value — The Path to Profitability", Foundations and Trends® in Marketing: Vol. 2: No. 1, pp 1-96. http://dx.doi.org/10.1561/1700000004
+Najafi, S., Duenyas, I., Jasin, S., & Uichanco, J. (2024). Multiproduct dynamic pricing with limited inventories under a cascade click model. Manufacturing & Service Operations Management, 26(2), 554-572.
+Shukla, N., Kolbeinsson, A., Otwell, K., Marla, L., & Yellepeddi, K. (2019, July). Dynamic pricing for airline ancillaries with customer context. In Proceedings of the 25th ACM SIGKDD International Conference on knowledge discovery & data mining (pp. 2174-2182).
+Thuy, P. T. T., Tuyen, D. D., & Soo, K. H. APPLICATION OF THE PROMOTION MODEL BASED CUSTOMER LIFETIME VALUE TO PREVENT CUSTOMERS TRANSFER NETWORK IN VNPT LAM DONG.
+Victor, V., Joy Thoppan, J., Jeyakumar Nathan, R., & Farkas Maria, F. (2018). Factors influencing consumer behavior and prospective purchase decisions in a dynamic pricing environment—an exploratory factor analysis approach. Social Sciences, 7(9), 153.
+Ye, P., Qian, J., Chen, J., Wu, C. H., Zhou, Y., De Mars, S., ... & Zhang, L. (2018, July). Customized regression model for airbnb dynamic pricing. In Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining (pp. 932-940).
+
+
+
+
+
+Proposed Project Supervisor (First Choice)
+ Robert Berry
+Proposed Project Supervisor (Second Choice)
+ Gary Higgs
+
+
+Please complete ALL sections.
+

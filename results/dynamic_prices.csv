@@ -1,0 +1,4 @@
+CustomerID,Recency,Frequency,MonetaryValue,Tenure,AvgDaysBetweenPurchases,Age,UniqueProductsCount,MonetaryValuePerPurchase,PurchaseFrequencyRate,Predicted_CLV,CLV_Segment,ProductID,Base_Price,Inventory_Level,Dynamic_Price
+CUST001,30,5,500,365,30,35,10,100.0,0.0136986301369863,500.0000000117585,medium,PROD101,100.0,medium,100.0
+CUST002,45,3,250,180,60,28,5,83.33333333333333,0.016666666666666666,250.0000001881355,low,PROD101,100.0,high,99.75
+CUST003,15,8,800,730,15,42,15,100.0,0.010958904109589041,799.999999800106,high,PROD102,150.0,low,149.625

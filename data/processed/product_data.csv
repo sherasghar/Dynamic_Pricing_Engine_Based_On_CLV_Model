@@ -1,0 +1,4 @@
+CustomerID,ProductID,Base_Price,Inventory_Level
+CUST001,PROD101,100.00,medium
+CUST002,PROD101,100.00,high
+CUST003,PROD102,150.00,low

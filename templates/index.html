@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Pricing Engine</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dynamic Pricing Engine</h1>
+            <p>Test your CLV model with real-time pricing calculations</p>
+        </header>
+
+        <div class="dashboard">
+            <div class="control-panel">
+                <h2>Customer Input</h2>
+                <form id="customerForm">
+                    <div class="form-group">
+                        <label for="Recency">Recency (days since last purchase):</label>
+                        <input type="number" id="Recency" value="30" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="Frequency">Frequency (total purchases):</label>
+                        <input type="number" id="Frequency" value="5" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="MonetaryValue">Monetary Value (total spent):</label>
+                        <input type="number" id="MonetaryValue" value="500" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="Tenure">Tenure (days as customer):</label>
+                        <input type="number" id="Tenure" value="365" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="AvgDaysBetweenPurchases">Avg Days Between Purchases:</label>
+                        <input type="number" id="AvgDaysBetweenPurchases" value="30" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="Age">Customer Age:</label>
+                        <input type="number" id="Age" value="35" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="UniqueProductsCount">Unique Products Purchased:</label>
+                        <input type="number" id="UniqueProductsCount" value="3" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="product_cost">Product Cost:</label>
+                        <input type="number" id="product_cost" value="50.0" step="0.01" required>
+                    </div>
+                    
+                    <div class="button-group">
+                        <button type="button" onclick="calculatePrice()">Calculate Price</button>
+                        <button type="button" onclick="testModel()">Test Model</button>
+                        <button type="button" onclick="loadSampleData()">Load Sample Data</button>
+                        <button type="button" onclick="resetForm()">Reset</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="results-panel">
+                <h2>Pricing Results</h2>
+                <div id="resultsContainer" class="hidden">
+                    <div class="result-card">
+                        <h3>Price Recommendation</h3>
+                        <div class="price-display">
+                            <span class="base-price">$<span id="basePrice">100.00</span></span>
+                            <span class="arrow">→</span>
+                            <span class="dynamic-price">$<span id="dynamicPrice">0.00</span></span>
+                        </div>
+                        <div class="price-details">
+                            <p>Minimum Price: $<span id="minPrice">0.00</span></p>
+                            <p>Profit Margin: <span id="profitMargin">0</span>%</p>
+                        </div>
+                    </div>
+                    
+                    <div class="metrics-card">
+                        <h3>Customer Metrics</h3>
+                        <div class="metrics-grid">
+                            <div>
+                                <label>Predicted CLV:</label>
+                                <span id="clvValue">0</span>
+                            </div>
+                            <div>
+                                <label>Price Adjustment Factor:</label>
+                                <span id="adjustmentFactor">0</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="chart-container">
+                        <canvas id="priceChart"></canvas>
+                    </div>
+                </div>
+                
+                <div id="loadingIndicator" class="hidden">
+                    <div class="spinner"></div>
+                    <p>Calculating...</p>
+                </div>
+                
+                <div id="errorContainer" class="hidden">
+                    <div class="error-card">
+                        <h3>Error</h3>
+                        <p id="errorMessage"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
